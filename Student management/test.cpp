@@ -186,7 +186,7 @@ Continuee:
     } while (n != 1 || n != 2);
 }
 
-void show_infor( vector<Student> &database_student) // Marked as const
+void show_infor( vector<Student> &database_student) 
 {
     cout << "\tStudent list\t" << endl;
     cout << "STT\tID\tNAME\tOLD\tGENDER\tMATH\tENGLISH\tLITERATURE" << endl;
